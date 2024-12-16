@@ -1,63 +1,47 @@
+# LiterAlura 
 
-# Project Title
+## **Visão Geral**
 
-LiterAlura - Java Project
+O *LiterAlura* é uma aplicação console desenvolvida em **Java** utilizando o framework **Spring Boot**. Ela integra a API do **Gutendex.com**, que fornece uma vasta coleção de informações sobre livros. O objetivo principal do projeto é permitir que os usuários pesquisem livros na API, salvem-nos em um banco de dados e consultem informações posteriormente com base em critérios como título, idioma e autores.
 
+Além disso, o projeto oferece funcionalidades para listar autores que estavam vivos após uma data específica, fornecida pelo usuário.
 
-## Overview
+Agradecimentos especiais ao **Gutendex.com** por disponibilizar dados valiosos sobre livros e à comunidade **Spring Boot** pelo framework robusto.
 
+---
 
+## **Recursos**
 
-The LiterAlura project is a console application developed using Spring Boot that interacts with the Gutendex.com API to access a vast collection of book information. This application allows users to fetch books from the API and store them in a database for later retrieval. Users can also query their saved books based on title, genre, language, and authors. Additionally, the application supports operations to retrieve authors who were alive after a specified date entered by the user.
++ **Integração com API**: Conecta-se à API do Gutendex para buscar informações sobre livros.
++ **Interação com Banco de Dados**: Permite salvar e recuperar informações de livros armazenadas em um banco de dados relacional.
++ **Funcionalidades de Pesquisa**: 
+  - Buscar livros salvos por título, idioma ou autores.
++ **Filtragem de Autores**:
+  - Exibe autores que estavam vivos após uma data informada pelo usuário.
 
-Special thanks to Gutendex.com for providing the valuable book data and to the Spring Boot community for the robust framework.
-## Features
+---
 
-+ API Integration: Utilizes the Gutendex.com API to access book information.
-+ Database Interaction: Enables users to store and retrieve books from a database.
-+ Search Functionality: Users can search for saved books by title, genre, language, and authors.
-+ Author Filtering: Supports filtering authors who were alive after a user-defined date.
+## **Tecnologias Utilizadas**
 
++ **Java**: Linguagem principal utilizada no desenvolvimento do projeto.
++ **Spring Boot 3.2**: Framework utilizado para criação do backend.
++ **Gutendex API**: Fonte de dados de livros.
++ **PostgreSQL**: Banco de dados para armazenamento persistente.
 
-## Technologies Used
+---
 
-+ Java: The core programming language used for developing the application.
+## **Como Começar**
 
-+ API Integration: Utilized an external API to retrieve real-time exchange rates.
+Para executar o projeto *LiterAlura* localmente, siga os passos abaixo:
 
-+ Spring Boot 3.2
+1. Clone este repositório no seu computador:
+   ```bash
+   git clone https://github.com/seu-usuario/LiterAlura.git
+## Uso
+Após iniciar a aplicação, o menu principal será exibido no console com as seguintes opções:
 
-+ Gutendex.com API
-
-+ Database (PostgreSQL)
-
-
-
-## Getting Started
-
-To run the Currency Converter locally, follow these steps:
-
-+ Clone this repository to your local machine.
-+ Open the project in your preferred Java IDE.
-+ Run the application.
-## Usage
-
-+ Upon launching the application, you'll be presented with options to choose your desired currencies and perform conversions.
-+ Select the currencies you want to convert from and to.
-+ Enter the amount you wish to convert.
-+ The application will display the converted amount based on the latest exchange rates.
-
-## Authors
-
-- [Jorge Morales](https://github.com/luifer991)
-
-
-## 🚀 About Me
-Hi there! I'm Jorge Morales, a passionate fullstack programming student and data analyst. Throughout my journey, I've gained skills in a variety of technologies including React.js, Node.js, Next.js, TypeScript, and I'm currently delving into Java for backend development, specifically with Spring Boot. I enjoy exploring new tools and frameworks to enhance my skills and craft innovative solutions. Connect with me and let's talk about the exciting world of software development and data analysis!
-
-
-
-## Contributing
-
-Contributions to the LiterAlura project are welcome! If you have any suggestions, feature requests, or bug reports, feel free to open an issue or submit a pull request.
-
++ Buscar livros na API por título e salvá-los no banco de dados.
++ Listar os livros registrados no banco de dados.
++ Listar autores registrados.
++ Filtrar autores vivos após uma determinada data.
++ Listar livros registrados por idioma.
